@@ -35,7 +35,12 @@ Start the Express server:
 ```bash
 npm start
 ```
-## In a separate terminal, start the worker service:
+## In the first terminal, start the server service:
+
+```bash
+node server.js
+```
+## In the second terminal, start the worker service:
 
 ```bash
 node worker.js
