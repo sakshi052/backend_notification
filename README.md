@@ -4,14 +4,15 @@ A simple Node.js backend service for sending notifications via Email, SMS, and a
 
 ## 📦 Installation
 
-```bash
+bash
 npm install
+
 
 ## ⚙ Environment Setup
 
 Create a .env file in the project root and configure the following variables:
 
-```env
+env
 PORT=3000
 RABBITMQ_URL=amqp://localhost
 
@@ -30,13 +31,14 @@ Make sure RabbitMQ is running locally or accessible via the RABBITMQ_URL you pro
 
 Start the Express server:
 
-```bash
+bash
 npm start
 
 ## In a separate terminal, start the worker service:
 
-```bash
+bash
 node worker.js
+```
 
 ## 🔧 Dependencies
 
