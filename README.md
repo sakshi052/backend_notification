@@ -12,7 +12,7 @@ npm install
 
 Create a .env file in the project root and configure the following variables:
 
-env
+```env
 PORT=3000
 RABBITMQ_URL=amqp://localhost
 
@@ -25,6 +25,7 @@ TWILIO_ACCOUNT_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE_NUMBER=+1234567890
 
+```
 Make sure RabbitMQ is running locally or accessible via the RABBITMQ_URL you provide.
 
 ## 🚀 Running the Project
